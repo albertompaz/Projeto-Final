@@ -1,0 +1,43 @@
+.fa-book-reader {
+    padding-right: 2px !important;
+}
+    .dando_espaco {
+        padding-left: 10px;
+    }
+
+.nome-disciplina {
+    font-weight: bold !important;
+    font-size: 15px !important;
+}
+
+.tabela {
+    border: 2px solid #3b72d6;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px !important;
+    margin-left: 5px !important;
+}
+
+    .tabela td {
+        border: 2px solid #3b72d6;
+        padding: 5px 20px;
+    }
+
+        .centralizando {
+            text-align: center !important;
+        }
+
+    .table-cabecalho {
+        background-color: #97b8f5 ;
+        font-size: 18px !important;
+        font-weight: bold !important;
+        text-align: center !important;
+    }
+    
+    .table-dia {
+        background-color: #1c3564 ;
+        color: white;
+        font-size: 18px !important;
+        text-align: center !important;
+    }

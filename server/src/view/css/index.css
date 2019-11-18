@@ -1,0 +1,134 @@
+/*---------------------------
+|      CONTEÚDO CENTRAL      |
+ ---------------------------*/
+
+#wrapper {
+    display: flex !important;
+    width: 100% !important;
+    align-items: stretch !important;
+}
+
+    #page-content-wrapper {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 100% !important;
+    }
+
+        .container-fluid {
+            min-height: 1366px !important;
+            text-align: justify;
+            padding-left: 5% !important;
+            padding-right: 20% !important;
+        }
+
+            .container-fluid h1 {
+                padding: 50px 0px 25px 0px !important;
+                font-size: 26px !important;
+            }
+
+            .container-fluid p {
+                margin: 0px !important;
+                padding: 5px 0px 5px 0px !important;
+                font-size: 18px !important;
+            }
+
+            .container-fluid h2 {
+                padding: 50px 0px 15px 0px !important;
+                font-size: 24px !important;
+            }
+
+            .fa-exclamation-triangle, .fa-newspaper {
+                padding-right: 7px !important;
+            }
+
+            .container-fluid li {
+                padding: 8px !important;
+                font-size: 16px !important;
+            }
+    
+/*---------------------------
+|          SIDEBAR           |
+ ---------------------------*/
+
+#sidebar-wrapper {
+    min-width: 260px !important;
+    max-width: 260px !important;
+    min-height: 100vh !important;
+}
+
+    #sidebar-wrapper.active {
+        margin-left: -250px;
+    }
+
+    .btn-info {
+        color: #fff !important;
+        background-color: #1d3f81 !important;
+        border-color: #1d3f81 !important;
+    }
+
+    .btn-info:hover {
+        color: #fff !important;
+        background-color: #152c58 !important;
+        border-color: #152c58 !important;
+    }
+
+/*---------------------------
+|   NAVEGAÇÃO FIXA DO TOPO   |
+ ---------------------------*/
+
+.navbar-expand-lg .navbar-nav {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+
+    .bg-blue {
+        background-color: #2e64d1 !important;
+    }
+
+    .botoes-esq {
+        margin-left: auto !important;
+    }
+
+    .badge-danger {
+        margin: 0 !important;
+        margin-left: -7px !important;
+    }
+
+    
+/*---------------------------
+|           FOOTER           |
+ ---------------------------*/
+
+.sticky-footer {
+    position: relative !important;
+    width: 100% !important;
+    background-color: #2e64d1 !important;
+    background: URL(../img/apoio.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+    
+/*---------------------------
+|    DISPOSITIVOS-LARGURA    |
+ ---------------------------*/
+
+/* Para dispositivos 750px.largura ou menores: */
+@media (max-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: -260px !important;
+    }
+    #sidebar-wrapper.active {
+        margin-left: 0 !important;
+    }
+}
+
+/* Para dispositivos 1250px.largura ou menores: */
+@media only screen and (max-device-width: 1250px) {
+    .sticky-footer {
+        background-size: contain !important;
+    }
+}
+

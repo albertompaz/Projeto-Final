@@ -1,0 +1,31 @@
+
+.container-fluid {
+    padding-right: 0% !important;
+}
+
+.fa-graduation-cap {
+    padding-right: 3px !important;
+}
+
+    .dando_espaco {
+        padding-left: 10px;
+    }
+
+#nova-tabela {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px !important;
+}
+
+    aside {
+        padding: 5px 20px;
+    }
+
+        .disciplina-nome, .disciplina-nota, .disciplina-presenca {
+            border: 1px solid #3b72d6;
+        }
+
+
+/*/////////////////////// select bar ////////////////////////*/
+/* The container must be positioned relative: */
+

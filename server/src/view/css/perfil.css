@@ -1,0 +1,28 @@
+.container-fluid h1 {
+    padding: 50px 0px 0px 0px !important;
+    font-size: 26px !important;
+}
+
+.container-fluid p {
+    margin: 0px !important;
+    padding: 2px 0px 0px 25px !important;
+    font-size: 16px !important;
+}
+
+    #informacao-contato {
+        margin: 0px !important;
+        padding: 25px 0px 0px 0px !important;
+        font-size: 18px !important;
+    }
+
+.container-fluid h2 {
+    padding: 20px 0px 5px 0px !important;
+    font-size: 20px !important;
+}
+
+.fa-user {
+    padding-right: 3px !important;
+}
+    .dando_espaco {
+        padding-left: 10px;
+    }

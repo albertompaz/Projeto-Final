@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS`s -->
+    <!-- CSS do Bootstrap -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- CSS da página -->
+    <link rel="stylesheet" href="css/login.css">
+    <!-- CSS do Font-awesome -->
+    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+
+    <!-- SCRIPTS -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <script src="js/login.js"></script>
+
+    <!-- script axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- TITLE -->
+    <title>Login - SistaCad Serratec</title>
+    <link rel="shortcut icon" href="img/icon-serratec.png">
+
+</head>
+
+<body>
+
+    <div class="login-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 login-sec">
+                        <div class="login-title">
+                            <h3>&#8249;Residência de Software&#8250;</h3>
+                        </div>                    
+                        <form class="login-form">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="text-uppercase">Matrícula</label>
+                            <input type="text" class="form-control" placeholder="CPF" id="matricula">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="text-uppercase">Senha</label>
+                            <input type="password" class="form-control" placeholder="********" id="senha">
+                        </div>
+
+
+                        <div>
+                            <p>Usuário:
+                                <input type="radio" name="radusuario" id="professor"  checked>
+                                <label for="prof">Professor</label>
+                                <input type="radio" name="radusuario" id="aluno">
+                                <label for="aln">Aluno</label>
+                            </p>
+                            <p>
+                                <input type="button" value="Login" onclick="verificar()">
+                            </p>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-md-8 banner-sec">
+                    <div class="carousel-inner" role="listbox">
+                        <!-- <img class="imgfrente" src="img/frente_serratec_novo.png" alt="Frente Serratec"> -->
+                        <img class="imgfrente" src="img/download.png" alt="Frente Serratec" id="imagem">
+                        <div class="banner-text">
+                            <h2> SISTEMA ACADÊMICO </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

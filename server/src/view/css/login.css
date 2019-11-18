@@ -1,0 +1,81 @@
+body {
+    background: rgb(12, 97, 157) !important;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgb(37, 170, 225), rgb(12, 97, 157)) !important;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgb(37, 170, 225), rgb(12, 97, 157)) !important;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin: 170px auto;
+    background: rgb(241, 241, 241);
+    border-radius: 10px;
+    box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.1);
+    height: 100% !important;
+
+}
+
+    .login-title h3{
+        text-align: center;
+        padding: 40px 40px 20px 40px;
+        font-size: 26px;
+        color: rgb(8, 64, 104);
+        font-weight: 800;
+    }
+
+        .login-form {
+            font-size: 16px;
+            font-weight: 400;
+            color: rgb(8, 64, 104) !important;
+            padding: 0px 40px 0px 40px;
+        }
+
+        .text-uppercase{
+            margin-bottom: 5px !important;
+        }
+
+        small {
+            vertical-align: 3px !important;
+        }
+
+        .btn-login {
+            background: rgb(12, 97, 157);
+            color: #fff;
+            padding: 2px 8px !important;
+            font-weight: 400;
+        }
+
+    .banner-sec {
+        padding: 0;
+    }
+    
+        .carousel-inner {
+            border-radius: 0 10px 10px 0;
+        }
+
+        .banner-text {
+            position: absolute;
+            margin: 0 auto;
+            top: 30px;
+        }
+
+            .banner-text h2{
+                text-align: right;
+                padding-left: 330px;
+                font-size: 32px;
+                color: rgb(255, 255, 255);
+                font-weight: 800;
+                -webkit-text-stroke-width: 0.9px;
+                -webkit-text-stroke-color: rgba(4, 43, 87, 0.712);
+                text-shadow: 2px 2px 0px rgba(27, 27, 27, 0.897);
+            }
+
+#imagem{
+    width: 771px;
+    height: 380px;
+}
+
+

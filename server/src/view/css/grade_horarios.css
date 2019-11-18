@@ -1,0 +1,24 @@
+.fa-clock {
+    padding-right: 3px !important;
+}
+    .dando_espaco {
+        padding-left: 10px;
+    }
+
+/* This CSS includes a few ways of styling PDF files */
+
+p:not(.cssonly) a[href$=".pdf"]:before {
+    /* PDF file */
+width:32px;
+height:32px;
+background:url('http://wwwimages.adobe.com/content/dam/acom/en/legal/images/badges/Adobe_PDF_file_icon_32x32.png');
+display:inline-block;
+margin-right: 8px;
+content:' ';
+}
+
+/* Add " (PDF)" text after links that go to PDFs */
+a[href$=".pdf"]:after { content: " (PDF)"; }
+
+/* If file size specified as data attribute, use that too */
+a[href$=".pdf"][data-size]:after { content: " (PDF, " attr(data-size) ")"; }
